@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+#topdiv {
+	position: relative;
+	width: 100%;
+	min-width: 640px;
+	top:0;
+	background-color: #f2f2f2;
+}
+
+#formdiv {
+	position: relative;
+	height: 45px;
+	margin: auto;
+	padding-top: 17.5px;
+}
+
+#logo {
+	width: 100px;
+	margin: auto;
+	padding-top: 8px;
+}
+
+#logodiv {
+	position: absolute;
+	display: inline-block;
+	margin: auto;
+	height: 100%;
+	padding-left: 12px;
+}
+
+#searchboxdiv {
+	position: absolute;
+	display: inline-block;
+	padding-left: 120px;
+	height: 100%;
+}
+
+#searchbox {
+	width: 558px;
+	padding: 12.5px;
+	font-size: 16px;
+	box-shadow: 0 1px 5px #cecece;
+	border: 1px solid #cecece;
+	transition: box-shadow 0.5s;
+}
+
+#searchbox:focus {
+	outline-offset: 0px;
+	outline: none;
+	box-shadow: 0 3px 8px #cecece;
+}
+
+#searchbox:hover {
+	box-shadow: 0 3px 8px #cecece;
+}
+
+#tabs {
+	display: relative;
+	align-items: baseline;
+}
+
+.tabitem {
+	display: inline-block;
+}
+
+.tabitem a {
+	text-decoration: none;
+	color: #777;
+	margin: 0 8px;
+	padding: 0 8px;
+	display: inline-block;
+}
+
+#tabselected {
+	/*height: 13px;*/
+	line-height: 1;
+	padding: 29px 16px 13px;
+	font-weight: bold;
+	color: #4285f4;
+	border-bottom: 3px solid #4285f4;
+	margin-left: 120px;
+}
+
+#tabselected a {
+
+}
