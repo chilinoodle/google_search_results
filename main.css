@@ -10,7 +10,8 @@
 	width: 100%;
 	min-width: 640px;
 	top:0;
-	background-color: #f2f2f2;
+	background-color: #fafafa;
+    border-bottom: 1px solid #ebebeb;
 }
 
 #formdiv {
@@ -21,7 +22,7 @@
 }
 
 #logo {
-	width: 100px;
+	width: 120px;
 	margin: auto;
 	padding-top: 8px;
 }
@@ -37,7 +38,7 @@
 #searchboxdiv {
 	position: absolute;
 	display: inline-block;
-	padding-left: 120px;
+	padding-left: 150px;
 	height: 100%;
 }
 
@@ -84,9 +85,103 @@
 	font-weight: bold;
 	color: #4285f4;
 	border-bottom: 3px solid #4285f4;
-	margin-left: 120px;
+	margin-left: 150px;
 }
 
-#tabselected a {
+#about {
+    color:dimgrey;
+    margin: 20px 0 20px 0;
+    padding-left: 170px;
+}
 
+.searchresulthead {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.searchresultlink {
+    color: green;
+    line-height: 24px;
+}
+
+.searchresulttext {
+    color: dimgrey;
+    line-height: 18px;
+}
+
+.searchresult {
+    padding-left: 170px;
+    width: 558px;
+    padding-bottom: 24px;
+}
+
+#bottomdiv {
+    padding-left: 170px;
+    width: 558px;
+}
+
+#bottomdiv a {
+    text-decoration: none;
+    color: #4285f4
+}
+
+#footnav {
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.navstartspan {
+    background-image: url(https://www.google.hr/images/nav_logo242.png);
+    background-repeat: no-repeat;
+    background-position: -24px 0;
+    width: 28px;
+    height: 40px;
+    display: block;
+}
+
+.navfirst {
+    background-image: url(https://www.google.hr/images/nav_logo242.png);
+    background-repeat: no-repeat;
+    background-position: -53px 0;
+    width: 20px;
+    height: 40px;
+    display: block;
+}
+
+.navmid {
+    background-image: url(https://www.google.hr/images/nav_logo242.png);
+    background-repeat: no-repeat;
+    background-position: -73px 0;
+    width: 20px;
+    height: 40px;
+    display: block;
+}
+
+.ohs {
+    text-align: center;
+    padding: 0;
+    vertical-align: top;
+}
+
+.navendspan {
+    background-image: url(https://www.google.hr/images/nav_logo242.png);
+    background-repeat: no-repeat;
+    background-position: -96px 0;
+    width: 72px;
+    height: 40px;
+    display: block;
+}
+
+#navend span:nth-child(2) {
+    margin-left: 50px;
+}
+
+#footerdiv {
+    position: relative;
+	width: 100%;
+	min-width: 640px;
+    height: 80px;
+	bottom:0;
+	background-color: #fafafa;
+    border-top: 1px solid #ebebeb;
 }
